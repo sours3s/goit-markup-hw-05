@@ -43,7 +43,6 @@
 }
 
 .footer-social {
-  margin-right: 80px;
 }
 
 .footer-social-title {
@@ -78,6 +77,10 @@
 
 /* ---- Subscribe form ---- */
 
+.footer-subscribe {
+  margin-left: auto;
+}
+
 .footer-subscribe-title {
   margin-bottom: 16px;
   font-weight: 500;
@@ -100,7 +103,7 @@
   border-radius: 4px;
   background-color: transparent;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #ffffff;
   outline: none;
@@ -112,7 +115,7 @@
 }
 
 .footer-subscribe-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .footer-subscribe-btn {
