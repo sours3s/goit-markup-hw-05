@@ -53,7 +53,7 @@
   height: 24px;
   padding: 0;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -122,10 +122,10 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
-  font-size: 12px;
-  line-height: 1.17;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: #434455;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -157,7 +157,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: #434455;
   resize: none;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -240,6 +240,7 @@
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
